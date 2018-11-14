@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVPHelloWorld</string>
+    <string name="no_cred">Enter Login Credentails</string>
+
+</resources>
