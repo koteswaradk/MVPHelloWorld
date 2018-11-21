@@ -3,11 +3,12 @@
 buildscript {
 
     repositories {
+        jcenter()
         maven {
             url 'https://maven.google.com'
             // An alternative URL is 'https://dl.google.com/dl/android/maven2/'
         }
-        jcenter()
+
 
     }
     dependencies {
@@ -21,11 +22,12 @@ buildscript {
 
 allprojects {
     repositories {
+        jcenter()
         maven {
             url 'https://maven.google.com'
             // An alternative URL is 'https://dl.google.com/dl/android/maven2/'
         }
-        jcenter()
+
             maven {
                 name 'Google'
                 url 'https://maven.google.com/'
