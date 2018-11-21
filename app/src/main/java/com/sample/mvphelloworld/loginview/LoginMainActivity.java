@@ -36,6 +36,9 @@ public class LoginMainActivity extends AppCompatActivity implements LoginContrac
 
     }
 
+    public void adding(){
+
+    }
     @Override
     public void showLoginSucessMessage(String message) {
         Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
